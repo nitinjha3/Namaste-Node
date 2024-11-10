@@ -4,4 +4,9 @@ function calculateSum(a,b){
     console.log(a+b);
     
 }
-module.exports = calculateSum
+
+var x="hi"
+module.exports = {
+    a:calculateSum,
+    b:x
+}
