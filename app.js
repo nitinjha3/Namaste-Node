@@ -1,14 +1,17 @@
 // require("./xyz.js")
-
 // var obj=require("./calculateSum.js")
-var name="Namaste NodeJs"
-import {calculateSum} from "./calculateSum.js"
+// // import {calculateSum} from "./calculateSum.js"
+
+var {sum,multiply} =require("./calculate")
 
 var a=10
 var b=24
 
-calculateSum(a,b)
+sum(a,b)
 
+multiply(a,b)
+
+// calculateSum(a,b)
 // obj.a(a,b)
 // console.log(obj.b);
 
